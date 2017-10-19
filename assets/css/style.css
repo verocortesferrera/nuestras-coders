@@ -1,0 +1,68 @@
+h1{
+	font-family: 'Crete Round', serif;
+	font-size: 25px;
+	color: rgb(116,227,236);
+	border-bottom: 5px solid rgb(116,227,236);
+	margin-bottom: 80px;
+	margin-left: 60px;
+	position: static;
+	display: inline-block;
+	position: absolute;	
+}
+
+
+p{
+	font-family: 'Crete Round', serif;
+	font-size: 20px;
+	color:#FFF;
+	position: absolute;
+	margin-top: 220px;
+	background-color: rgb(116,227,236);
+	line-height: 35px;
+	padding: 5px;
+	border-left: 15px;
+	display: block;
+	width: 260px;
+}
+
+
+
+.abby{
+	background-image: url(../img/abby-sciuto.jpg);
+}
+
+.amy{
+	background-image: url(../img/amy-farrah.jpg);
+}
+
+.bernadette{
+	background-image: url(../img/bernadette-soubirous.jpg);
+}
+
+.emma{
+	background-image: url(../img/emma-watson.jpg);
+}
+
+.jessica{
+	background-image: url(../img/jessica-day.jpg);
+}
+
+.willow{
+	background-image: url(../img/willow-rosenberg.jpg);
+}
+
+div{
+	width: 270px;
+	height: 270px;
+	margin-left: 60px;
+	margin-top: 50px;
+	background-size: 100%;	
+	float: left;
+}
+
+/*color degradado*/
+background: rgb(116,227,236); /* Old Browsers */
+background: -webkit-linear-gradient(top,rgb(116,227,236),rgb(45, 116, 154)); /*Safari 5.1-6*/
+background: -o-linear-gradient(top,rgb(116,227,236),rgb(45, 116, 154)); /*Opera 11.1-12*/
+background: -moz-linear-gradient(top,rgb(116,227,236),rgb(45, 116, 154)); /*Fx 3.6-15*/
+background: linear-gradient(to bottom, rgb(116,227,236), rgb(45, 116, 154)); /*Standard*/
